@@ -1,0 +1,46 @@
+{
+  "name": "vuetify-date-time-menu-picker",
+  "version": "0.0.1",
+  "description": "Vuetify component to simplify the Date And Time Menu Picker usage.",
+  "main": "dist/index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "eslint": "^4.19.1",
+    "eslint-config-spatie": "^2.0.3",
+    "vue": "^2.5.16",
+    "vue-loader": "^15.2.4",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^4.11.1",
+    "webpack-cli": "^3.0.3",
+    "webpack-merge": "^4.1.2"
+  },
+  "scripts": {
+    "build": "rm -rf dist && NODE_ENV=production webpack --mode production"
+  },
+  "peerDependencies": {
+    "vue": "^2.5.15",
+    "vuetify": "^1.0.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/c4software/VuetifyDateMenuPicker.git"
+  },
+  "keywords": [
+    "vue",
+    "vuetify",
+    "loader"
+  ],
+  "author": "Valentin Brosseau",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/c4software/VuetifyDateMenuPicker/issues"
+  },
+  "homepage": "https://github.com/c4software/VuetifyDateMenuPicker#readme"
+}
